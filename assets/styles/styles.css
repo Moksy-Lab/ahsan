@@ -1,0 +1,240 @@
+/*****rootCSSRules*****/
+    :root {
+--brand-color: #DAF7A6;
+--light-brand-color: #FFC300;
+--text-color: #ff914f;
+--light-text-color: #900C3F;
+--alert-color: #f8f9fa;
+--success-color: #fbfbfb;
+--warning-color: #EE8800;
+--error-color: #DAF7A6;
+--black-color: #f8f9fa;
+--main-background-color: #fbfbfb;
+--light-background-color: #ff914f;
+--default-font: Verdana;
+--primary-font: Nunito;
+--secondary-font: ;
+--thirdprimary-font: Helvetica;
+}
+/*****rootCSSRules*****/
+
+/*****TypographyCSS*****/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    scroll-behavior: smooth;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    color: #353935;
+}
+
+/* no margin for header and footer section */
+section.footer,
+section.header {
+    margin: 0;
+}
+
+/* 20px top and bottom margin for all sections */
+section {
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+h1,
+.h1 {
+    font-size: 2.75rem;
+}
+
+h2,
+.h2 {
+    font-size: 2rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.125rem;
+}
+
+h4,
+.h4 {
+    font-size: 1rem;
+}
+
+h5,
+.h5 {
+    font-size: 0.875rem;
+}
+
+h6,
+.h6 {
+    font-size: 0.813rem;
+}
+
+.lead {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*****TypographyCSS*****/
+
+/*****holly*****/
+/* #holly(hollyHeader) #css starts  */
+.hollyHeader .navbar-open-icon {
+    display: inline
+}
+
+.hollyHeader .navbar-close-icon {
+    display: none
+}
+
+.hollyHeader .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+    display: none
+}
+
+.hollyHeader .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+    display: inline
+}
+
+.hollyHeader .navbar-light .navbar-toggler {
+    color: #353935;
+    border-color: #353935;
+    font-size: 25px;
+}
+
+/* #holly(hollyHeader) #css ends  */
+/*****holly*****/
+
+/*****charold*****/
+    /* #charold(charoldCTA) #css starts  */
+    .charoldCTA .btn {
+        color: #fff;
+        border-color: #353935;
+        background-color: #353935;
+    }
+
+    .charoldCTA .fdb-block {
+        padding: 7.5rem 0;
+        background-color: #FFFFFF
+    }
+
+    /* #charold(charoldCTA) #css ends  */
+    /*****charold*****/
+
+/*****flynn*****/
+    /* #flynn(flynnFeature) #css starts  */
+    /* #flynn(flynnFeature) #css ends  */
+    /*****flynn*****/
+
+/*****teddy*****/
+    /* #teddy(teddyTestimonial) #css starts  */
+    .teddyTestimonial .man {
+        max-width: 80px;
+        margin-top: 15px;
+        height: 80px;
+    }
+
+    @media (min-width: 1200px) {
+
+        .teddyTestimonial .mt-xl-5,
+        .teddyTestimonial .my-xl-5 {
+            margin-top: 0.8rem !important;
+        }
+    }
+
+    @media (min-width: 1200px) {
+
+        .teddyTestimonial .pb-xl-5,
+        .teddyTestimonial .py-xl-5 {
+            padding-bottom: 2rem !important;
+        }
+    }
+
+    /* #teddy(teddyTestimonial) #css ends  */
+    /*****teddy*****/
+
+/*****cark*****/
+/* #cark(carkClients) #css starts  */
+.carkClients .fdb-block img {
+    max-height: 30px
+}
+
+/* #cark(carkClients) #css ends  */
+/*****cark*****/
+
+/*****fond*****/
+/* #fond(fondFooter) #css starts */
+.fondFooter img {
+    max-height: 60px
+}
+
+/* #fond(fondFooter) #css ends */
+/*****fond*****/
+

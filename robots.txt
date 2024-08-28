@@ -1,0 +1,23 @@
+# robots.txt for ahsan
+
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Sitemap location
+Sitemap: https://moksy.com/templates/ahsan//sitemap.xml
+
+# Host
+Host: https://moksy.com/templates/ahsan/
+
+# Support Contact
+Contact: support@moksy.com
+
+# Additional information
+# Site Name: ahsan
+# Site Description: 
+# Site Version: 1.0.0
+# Year: 2024
+
+# All rights reserved 2024 by Ahsan
